@@ -231,7 +231,7 @@ export const Button = () => {
             <button className="btn" onClick={()=>dispatch({type: ACTIONS.DELETE_DIGIT})}>DEL</button>
             <button className="btn" onClick={()=>dispatch({type: ACTIONS.DIVISION})}>1/x</button>
             <button className="btn" onClick={()=>dispatch({type: ACTIONS.SQUARE})}>x <sup>2</sup></button>
-            <button className="btn" onClick={()=>dispatch({type: ACTIONS.SQUARE_ROOT})}><sup>2</sup>x</button>
+            <button className="btn" onClick={()=>dispatch({type: ACTIONS.SQUARE_ROOT})}><sup>2</sup>&#8730;x</button>
             <OperationBtn operation='/' dispatch={dispatch} />
 
             <NumberBtn digit='7' dispatch={dispatch}/>
